@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/3/12 15:41:35。
+     1>项目“D:\1-学士学业\1-课程学习\2014.09-2015.01大四（上）\DSP原理与应用技术\DSP课程设计\上位机程序\map -DSP - zxj\map\map.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         H:\MyProgramFiles\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\map.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         H:\MyProgramFiles\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\map.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt map.cpp mapDlg.cpp ServerSocket.cpp webmap.cpp
+         webmap.cpp
+         ServerSocket.cpp
+         mapDlg.cpp
+     1>d:\1-学士学业\1-课程学习\2014.09-2015.01大四（上）\dsp原理与应用技术\dsp课程设计\上位机程序\map -dsp - zxj\map\mapdlg.cpp(453): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+         map.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\map.res" map.rc 
+       Link:
+         H:\MyProgramFiles\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1-学士学业\1-课程学习\2014.09-2015.01大四（上）\DSP原理与应用技术\DSP课程设计\上位机程序\map -DSP - zxj\Debug\map.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:H:\MyProgramFiles\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\1-学士学业\1-课程学习\2014.09-2015.01大四（上）\DSP原理与应用技术\DSP课程设计\上位机程序\map -DSP - zxj\Debug\map.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1-学士学业\1-课程学习\2014.09-2015.01大四（上）\DSP原理与应用技术\DSP课程设计\上位机程序\map -DSP - zxj\Debug\map.lib" /MACHINE:X86 Debug\map.res
+         Debug\map.obj
+         Debug\mapDlg.obj
+         Debug\ServerSocket.obj
+         Debug\stdafx.obj
+         Debug\webmap.obj
+         map.vcxproj -> D:\1-学士学业\1-课程学习\2014.09-2015.01大四（上）\DSP原理与应用技术\DSP课程设计\上位机程序\map -DSP - zxj\Debug\map.exe
+     1>已完成生成项目“D:\1-学士学业\1-课程学习\2014.09-2015.01大四（上）\DSP原理与应用技术\DSP课程设计\上位机程序\map -DSP - zxj\map\map.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.63

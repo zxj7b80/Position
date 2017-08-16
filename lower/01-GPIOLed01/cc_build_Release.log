@@ -1,0 +1,24 @@
+--------------------------  GPIOLed01.pjt - Release  --------------------------
+[DSP28_DefaultIsr.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_DefaultIsr.c"
+
+[DSP28_GlobalVariableDefs.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_GlobalVariableDefs.c"
+
+[DSP28_Gpio.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Gpio.c"
+
+[DSP28_InitPeripherals.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_InitPeripherals.c"
+
+[DSP28_PieCtrl.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_PieCtrl.c"
+
+[DSP28_PieVect.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_PieVect.c"
+
+[DSP28_Sci.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Sci.c"
+
+[DSP28_SysCtrl.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_SysCtrl.c"
+
+[GPIOLed01.c] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -pdsw225 -fr"D:/MyProgramFiles/CCS3.3/MyProjects/01-GPIOLed01/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "GPIOLed01.c"
+
+[Linking...] "D:\MyProgramFiles\CCS3.3\C2000\cgtools\bin\cl2000" -@"Release.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

@@ -1,0 +1,48 @@
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Baidu Map</title>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2&key=p0zkjl782TmqEa3iSwsh4Ftu"></script>
+<script type="text/javascript" src="http://developer.baidu.com/map/jsdemo/demo/convertor.js"></script>
+
+<body>
+
+<div style="width:450px;height:550px;" id="container"></div>
+
+</body>
+
+
+</html>
+
+<script type="text/javascript">
+
+var map = new BMap.Map("container");//*
+
+var point = new BMap.Point(118.7060483,32.2057253
+); 
+
+map.centerAndZoom(point, 1000);                 // 初始化地图，设置中心点坐标和地图级别
+
+var marker = new BMap.Marker(point);
+map.addOverlay(marker);
+
+//坐标转换完之后的回调函数
+	translateCallback = function (point){
+		var marker = new BMap.Marker(point);
+		map.addOverlay(marker);
+		var label = new BMap.Label("Baidumarker",{offset:new BMap.Size(20,-10)});
+		marker.setLabel(label); //添加百度label
+		map.setCenter(point);
+		//alert(point.lng + "," + point.lat);
+	}
+
+	setTimeout(function(){
+		BMap.Convertor.translate(gpsPoint,0,translateCallback);     //真实经纬度转成百度坐标
+},2000);
+
+
+map.enableScrollWheelZoom();//滚轮缩放事件
+
+</script>
